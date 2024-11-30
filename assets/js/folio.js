@@ -114,11 +114,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 imageGitHub.setAttribute("alt", "Logo : github")
             let linkProject = document.createElement("a")
             linkProject.setAttribute("href", sourcePage)
-            linkProject.setAttribute("title", "lien *** vers le projet")
+            linkProject.setAttribute("title", "visualisation du projet")
                 let imageLinkProject = document.createElement("img")
-                imageLinkProject.setAttribute("src", "")
-                imageLinkProject.setAttribute("alt", "Logo : ***")
-                linkProject.innerHTML=id
+                imageLinkProject.setAttribute("src", "./assets/images/alpha.ico")
+                imageLinkProject.setAttribute("alt", "Logo : Alpha")
 
 
         // fuse element to form slide
