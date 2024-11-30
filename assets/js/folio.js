@@ -4,9 +4,9 @@ document.addEventListener('DOMContentLoaded', function () {
         projet1 = {
             id:"1",
             name: "calculator",
-            image: "assets/images/js-project.jpg",
-            sourceGitHub: "#",
-            sourcePage: "#"
+            image: "https://github.com/AinaHerizo/LoginV1/LoginV1.webp",
+            sourceGitHub: "https://github.com/AinaHerizo/LoginV1",
+            sourcePage: "https://ainaherizo.github.io/LoginV1/"
         },
         projet2 = {
             id:"2",
