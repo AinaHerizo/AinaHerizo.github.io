@@ -3,31 +3,38 @@ document.addEventListener('DOMContentLoaded', function () {
     window.htmlProject = [
         projet1 = {
             id:"1",
-            name: "calculator",
-            image: "https://github.com/AinaHerizo/LoginV1/LoginV1.webp",
+            name: "LoginV1",
+            image: "https://ainaherizo.github.io/LoginV1/LoginV1.webp",
             sourceGitHub: "https://github.com/AinaHerizo/LoginV1",
             sourcePage: "https://ainaherizo.github.io/LoginV1/"
         },
         projet2 = {
             id:"2",
-            name: "chatJS",
-            image: "assets/images/chat-project.jpg",
-            sourceGitHub: "#",
-            sourcePage: "#"
+            name: "Progress Bar Dynamique",
+            image: "https://ainaherizo.github.io/progressDynamicBar/progressBar.webp",
+            sourceGitHub: "https://github.com/AinaHerizo/progressDynamicBar",
+            sourcePage: "https://ainaherizo.github.io/progressDynamicBar/"
         },
         projet3 = {
             id:"3",
-            name:"Filtre",
-            image: "assets/images/FYNATECH-project.jpg",
-            sourceGitHub: "#",
-            sourcePage: "#"
+            name:"Calculatrice",
+            image: "https://ainaherizo.github.io/calculatrice/calculatrice.webp",
+            sourceGitHub: "https://github.com/AinaHerizo/calculatrice",
+            sourcePage: "https://ainaherizo.github.io/calculatrice/"
         },
         project4 = {
             id:"4",
-            name:"Portfolio",
-            image:"assets/images/portfolio.jpg",
-            sourceGitHub: "#",
-            sourcePage: "#"
+            name:"Chat",
+            image:"https://ainaherizo.github.io/chat/chat.webp",
+            sourceGitHub: "https://github.com/AinaHerizo/chat",
+            sourcePage: "https://ainaherizo.github.io/chat/"
+        },
+        project5 = {
+            id:"5",
+            name:"Filter",
+            image:"https://ainaherizo.github.io/filter/filter.webp",
+            sourceGitHub: "https://github.com/AinaHerizo/filter",
+            sourcePage: "https://ainaherizo.github.io/filter/"
         },
     ]
     window.wordpressProject = [
