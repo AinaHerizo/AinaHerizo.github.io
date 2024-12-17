@@ -1,7 +1,45 @@
+.menu {
+  width: 1400px;
+  margin: auto;
+  padding: 27px 0;
+  position: relative;
+  z-index: 1;
+}
+.menu::before {
+  content: "";
+  position: absolute;
+  display: block;
+  background: linear-gradient(to right, #000, #5e1c8f);
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  opacity: 0.2;
+  border-radius: 15px;
+  border: 1px solid #fff;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+.menu ul li {
+  list-style: none;
+}
+.menu ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.container {
+  background: linear-gradient(to right, #000, #023d1d);
+  padding: 50px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
