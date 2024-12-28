@@ -1,0 +1,71 @@
+@import "../style/variable";
+@import "../style/functions";
+@import "../style/mixing";
+
+.menu {
+    width: $pc-width;
+    margin: auto;
+    padding: 27px 0;
+    position: relative;
+    z-index: 1;
+    @media (max-width:$pc) {
+      width: $portable-width;
+    }
+    @media (max-width:$portable) {
+      width: $lessTablet-width;
+    }
+    @media (max-width:$tablette) {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      ul{
+        position: absolute;
+        flex-direction: column;
+        gap: 15px;
+        top: 100px;
+        transform-origin: top;
+        &::before{
+          @include beforeBackground(0.5,20px,-22px,-22px);
+        }
+      }
+      ul.hide {
+        opacity: 0;
+        animation: accordeonDown .5s ease-in-out forwards;
+    }
+      ul.show {
+          opacity: 1;
+          animation: accordeonUp .5s ease-in-out forwards;
+      }
+      .burger-menu{
+        display: block!important;
+      }
+    }
+    &::before{
+      @include beforeBackground(0.2,0,0,0);
+    }
+    ul {
+      display: flex;
+      justify-content: space-around;
+      li {
+        list-style: none;
+        a {
+          color: #fff;
+          text-transform: uppercase;
+          text-decoration: none;
+        }
+      }
+    }
+    .burger-menu{
+      width: 45px;
+      aspect-ratio: 1/1;
+      cursor: pointer;
+      padding: 5px;
+      border: 1px solid #fff;
+      border-radius: 5px;
+      display: none;
+    }
+  }
+
+
+  // style
+  @include accordeonMixin;

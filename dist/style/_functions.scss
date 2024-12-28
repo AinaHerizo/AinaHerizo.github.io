@@ -1,0 +1,4 @@
+
+@function linearGradient($color1, $color2) {
+    @return linear-gradient(to right, $color1, $color2);
+  }
